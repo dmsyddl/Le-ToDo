@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 node_modules
 
-.eslintrc.json
-.prettierrc.json
+# .eslintrc.json
+# .prettierrc.json
