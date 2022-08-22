@@ -1,4 +1,4 @@
-# Le Todo App
+# Le-Todo App
 
 오늘의 할 일을 관리하는 웹 애플리케이션입니다.
 
