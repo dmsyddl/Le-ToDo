@@ -13,6 +13,39 @@
   }
 }
 
+.count--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+  margin: 10px;
+}
+
+button:after {
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 6px;
+  width: 90%;
+  height: 70%;
+  border: 1px solid #000;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
